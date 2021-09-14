@@ -3,6 +3,7 @@ import 'models/explore_recipe.dart';
 import 'components/components.dart';
 import 'screens/explore_screen.dart';
 import 'screens/recipes_screen.dart';
+import 'screens/grocery_screen.dart';
 
 class Home extends StatefulWidget {
  const Home({Key key}) : super(key: key);
@@ -17,6 +18,7 @@ class _HomeState extends State<Home> {
  static List<Widget> pages = <Widget>[
    ExploreScreen(),
    RecipesScreen(),
+   const GroceryScreen(),
  Card3(
         recipe: ExploreRecipe(
             title: 'Vegan Trends',
